@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  gap: 2%;
+}
+
+.input-part {
+  background: whitesmoke;
+  height: 45px;
+  width: 450px;
+  font-weight: bolder;
+  color: darkblue;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px 5px;
+}
+.add-btn {
+  background: linear-gradient(to right, #1a1a1a, #333333);
+  font-weight: bolder;
+  color: white;
+  height: 45px;
+  width: 125px;
+  border-radius: 5px;
+  transition: all ease-in-out;
+}
+
+.add-btn:hover {
+  transform: scale(1.1);
+  background: orange;
+  color: darkred;
+}
