@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { habitSelecter, removeHabit } from '../../Redux/HabitSlice'
-
+import "../List/HabitList.css"
 
 // this was empty file so i created this 
 
@@ -9,11 +9,11 @@ const HabitList = () => {
   const dispatch = useDispatch();
 
 const {habits} = useSelector(habitSelecter);
-console.log(habits);
+
 
 const handleRemove = () =>{
   dispatch(removeHabit());
-  console.log("delerte is working")
+  console.log("delete is working")
 }
   return (
 
